@@ -181,7 +181,6 @@ python run.py -c /path/to/config.json
 
 ## 定时任务
 
-<details>
 
 <summary markdown="span">可以通过脚本设置定时任务(默认每5分钟检查一次ip,自动更新)
 </summary>
@@ -205,37 +204,8 @@ python run.py -c /path/to/config.json
   该脚本安装的文件符合 [Filesystem Hierarchy Standard (FHS)](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)：
   可执行文件所在目录为 `/usr/share/DDNS`
   配置文件所在目录为 `/etc/DDNS`
-</details>
 
-## FAQ
 
-<details>
 
-<summary markdown="span"> Windows Server [SSL: CERTIFICATE_VERIFY_FAILED]
-</summary>
 
-> Windows Server 默认安全策略会禁止任何未添加的信任 ssl 证书,可手动添加一下对应的证书 [#56](https://github.com/NewFuture/DDNS/issues/56#issuecomment-487371078)
-
-使用系统自带的 IE 浏览器访问一次对应的 API 即可
-
-- alidns 打开: <https://alidns.aliyuncs.com>
-- cloudflare 打开: <https://api.cloudflare.com>
-- dns.com 打开: <https://www.dns.com>
-- dnspod.cn 打开: <https://dnsapi.cn>
-- dnspod 国际版: <https://api.dnspod.com>
-- 华为 DNS <https://dns.myhuaweicloud.com>
-  </details>
-
-<details>
-
-<summary markdown="span"> 问题排查反馈
-</summary>
-
-1. 先确认排查是否是系统/网络环境问题
-2. 在[issues](https://github.com/NewFuture/DDNS/issues)中搜索是否有类似问题
-3. 前两者均无法解决或者确定是 bug,[在此新建 issue](https://github.com/NewFuture/DDNS/issues/new)
-   - [ ] 开启 debug 配置
-   - [ ] 附上这些内容 **运行版本和方式**,**系统环境**, **出错日志**,**去掉 id/token**的配置文件
-   - [ ] 源码运行注明使用的 python 环境
-
-</details>
+https://hub.fastgit.org/ymcoming/DDNS
