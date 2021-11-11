@@ -76,6 +76,20 @@
 - #### Docker(需要安装 Docker)
   `docker run -d -v /path/to/config.json:/config.json --network host newfuture/ddns`
 
+`sudo yum makecache
+`sudo yum install epel-release
+`sudo yum makecache
+`sudo yum install python-pip
+`pip -V
+
+安装pip3
+`sudo yum search pip | grep python3
+`sudo yum install python34-pip
+`pip3 -V
+
+
+
+
 ### ② 快速配置
 
 1. 申请 api `token`,填写到对应的`id`和`token`字段:
