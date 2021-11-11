@@ -77,7 +77,7 @@
   `docker run -d -v /path/to/config.json:/config.json --network host newfuture/ddns`
 
 
-安装pip:
+Cenos7安装pip:
 
 sudo yum makecache
 
@@ -89,7 +89,7 @@ sudo yum install python-pip
 
 pip -V
 
-安装pip3
+Cenos7安装pip3
 
 sudo yum search pip | grep python3
 
